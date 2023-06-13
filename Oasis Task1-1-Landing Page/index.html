@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Oasis Internship Task:01 (1:Landing Page)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">Incredible India</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a> </a> Home</li>
+            <li><a href="#"></a> </a> Tours</li>
+            <li><a href="#"></a> </a> Explore</li>
+            <li><a href="#"></a> </a> About</li>
+            <li class="ctn"><a href="#"></a> </a> Contact Us</li>
+        </ul>
+        <img src="./menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>India :A land of magic and mystery</h2>
+            <div class="line"></div>
+            <h1>
+                JOURNEY THROUGH TIME AND SPACE
+            </h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+<!--EVENTS-->
+<section class="events">
+    <div class="title">
+        <h1>Upcoming Tours</h1>
+    </div>
+   
+    <div class="line"></div>
+<div class="row">
+    <div class="col">
+        <img src="./img1.png" alt="">
+        <h4>Pink City Expedition</h4>
+        <p>Venture into the "Pink City" of Jaipur and explore its captivating beauty.From the iconic Hawa Mahal to the Amer Fort,delve into the architectural marvels.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+
+    <div class="col">
+        <img src="./img2.png" alt="">
+        <h4>Imperial Udaipur Getaway</h4>
+        <p>Embark on an expedition through Udaipur, known as the "Lake City," and witness its serene lakes that mirror the city's captivating beauty.Contact us for more information and booking.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+
+    <div class="col">
+        <img src="./img3.png" alt="">
+        <h4>Discovering Delhi</h4>
+        <p>Lose yourself in the bustling lanes of Chandni Chowk, indulging in delectable street food and shopping for traditional goods. Create memories that will last a lifetime.</p>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+</div>
+</section>
+
+<section class="explore">
+<div class="explore-content">
+    <h1>
+      EMBRACE THE UNKNOWN
+       </h1>
+       <div class="line"></div>
+       <p>Experience the captivating allure of India's tourism as you embark on a remarkable journey through its diverse landscapes, architectural marvels, and rich cultural tapestry. From the majestic Himalayas to the sun-kissed beaches, from opulent palaces to serene temples, India invites you to explore its boundless charm.Discover iconic landmarks like the Taj Mahal, delve into ancient cave temples, and immerse yourself in the vibrant energy of bustling cities. Indulge in aromatic cuisine and embrace the warmth of its people.Let India's enchanting story unfold before you, leaving an everlasting impression on your soul. </p>
+       <a href="#" class="ctn">Know More</a>
+</div>
+</section>
+
+
+<section class="events">
+<div class="row">
+    <div class="col content-col">
+        <h1>UPCOMING EVENTS AND OCCASIONS </h1>
+        <div class="line"></div>
+        <p>Immerse yourself in the vibrant traditions and festivities of India, capturing the essence of its cultural heritage.The Kumbh Mela, a massive Hindu pilgrimage, draws millions to sacred rivers for spiritual cleansing at periodic intervals. The Jaipur Literature Festival in January gathers renowned authors and intellectuals for captivating discussions. Navaratri and Durga Puja in September or October bring forth energetic dances, music, fasting, and grand processions in honor of Goddess Durga. These upcoming events and festivals add an enchanting layer of cultural vibrancy to Indian trips, inviting travelers to immerse themselves in the unique traditions and celebrations of this diverse nation.</p>
+<a href="#" class="ctn">Know More</a>
+
+</div>
+<div class="col image-col">
+<div class="image-gallery">
+    <img src="./img4.png" alt="">
+    <img src="./img5.png" alt="">
+    <img src="./img6.png" alt="">
+    <img src="./img7.png" alt="">
+</div>
+</div>
+</div>
+</section>
+<section class="footer">
+    <p>Privacy Policy | Terms Of Platform Use | Important Links | Emergency </p>
+
+        <p>© Ministry of Tourism, Government of India</p>
+</section>
+
+    <script>
+        const menuBtn =document.querySelector('.menu-btn')   
+   const navlinks=document.querySelector('.nav-links')
+   menuBtn.addEventListener('click',()=>{
+navlinks.classList.toggle('mobile-menu')
+   })
+
+
+   </script>
+</body>
+</html>

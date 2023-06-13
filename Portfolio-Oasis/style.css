@@ -168,7 +168,28 @@ span{
     background: var(--second-bg-color);
   
 }
+.about__info{
+  display: flex;
+  justify-content: left;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  gap:2rem;
+}
+.about__info-title{
+  font-size: 22px;
+  font-weight: medium;
+  color: var(--title-color);
+}
+.about__info-name{
+  font-size: var(--smaller-font-size);
+  color:var(--text-color);
 
+}
+.about__info-title,
+.about__info-name{
+  display: block;
+  text-align: center;
+}
 .about-img img{
     width: 28vw;
     height: 35vw;
